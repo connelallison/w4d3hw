@@ -1,0 +1,58 @@
+.button {
+  text-decoration: none;
+  color: black;
+  padding:5px 15px;
+  margin: 10px;
+  background: aquamarine;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.edit {
+  background: lightgreen;
+}
+
+.delete {
+  background: darkred;
+  color: white;
+}
+
+.create {
+  background: lightgreen;
+}
+
+input[type=submit] {
+    margin: 10px;
+    padding:5px 15px;
+    /* background:#ccc; */
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+body {
+  background-color: beige;
+  font-family: arial;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto 3em auto 3em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  justify-content: space-around;
+}
